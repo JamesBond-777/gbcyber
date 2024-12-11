@@ -1,6 +1,6 @@
 <?php
 // Set the page title dynamically
-$pageTitle = "User Profile"; 
+$pageTitle = "User Instructions"; 
 
 // Include the header
 include('../asset_for_pages/header.php');

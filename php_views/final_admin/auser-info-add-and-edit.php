@@ -98,19 +98,19 @@ $devices = [
 
                     <!-- Bandwidth Select -->
                     <div class="form-group row">
-                        <label for="bandwidth" class="col-sm-2 col-form-label">Bandwidth Allocated [Mbps]:</label>
+                        <label for="bandwidth" class="col-sm-2 col-form-label">Bandwidth Allocated:</label>
                         <div class="col-sm-4">
                             <select class="form-control" id="bandwidth" name="bandwidth">
-                                <option>50</option>
-                                <option selected>100</option>
-                                <option>150</option>
+                                <option>50 GB</option>
+                                <option selected>100 GB</option>
+                                <option>150 GB</option>
                                 <option>Custom</option>
                             </select>
                         </div>
                     </div>
 
                     <!-- Data Usage Select -->
-                    <div class="form-group row">
+                    <!-- <div class="form-group row">
                         <label for="dataUsage" class="col-sm-2 col-form-label">Data Cap:</label>
                         <div class="col-sm-4">
                             <select class="form-control" id="dataUsage" name="dataUsage">
@@ -119,7 +119,7 @@ $devices = [
                                 <option>Custom</option>
                             </select>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Data Transfer Rate Select -->
                     <div class="form-group row">
